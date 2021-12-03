@@ -1,0 +1,1 @@
+document.querySelector("#content").appendChild(function(){let e=document.createElement("nav");e.id="navigation-bar";let t=document.createElement("div");return t.id="title",t.textContent="To-do List",e.appendChild(t),e}());

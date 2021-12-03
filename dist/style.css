@@ -1,0 +1,16 @@
+@font-face {
+    font-family: millenia;
+    src: url("millenia-font/MilleniaPersonalUse-w1OB8.ttf"); 
+}
+
+#navigation-bar
+{
+    height: 10vh;
+    color: white;
+    background-color: rgb(237,41,57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    font-family: millenia;
+}
