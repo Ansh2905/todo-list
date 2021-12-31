@@ -8,8 +8,18 @@
     <title>Document</title>
 </head>
 <body>
+    <div id = "project-pop-up">
+        <form action="/main.js" class="form-container">
+            <h1 class = "project-text">New Project</h1>
+        
+            <input type="text" placeholder="Project Name" name="project-name" class = "roboto-popup" id = "project-name" required>
+        
+            <button type="button" class="btn roboto-popup" id="submit-form">Create Project</button>
+            <button type="button" class="btn roboto-popup" id="close-form" onclick="closeForm()">Close</button>
+        </form>
+    </div>
     <div id = "content">
     </div>
-    <script src = "main.js"></script>
+    <script src = "/dist/main.js"></script>
 </body>
 </html>
